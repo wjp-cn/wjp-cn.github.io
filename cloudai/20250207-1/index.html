@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>下载gs协议的文件 &middot; 云一二三</title>
-  <meta name="title" content="下载gs协议的文件 &middot; 云一二三" />
+  <title>ollama及deepseek-r1模型安装使用 &middot; 云一二三</title>
+  <meta name="title" content="ollama及deepseek-r1模型安装使用 &middot; 云一二三" />
   
-  <meta name="description" content="下载gs协议（gs://）的文件。" />
-  <meta name="keywords" content="file, download, gs, " />
+  <meta name="description" content="实现ollama调用deepseek-r1模型并在chatbox上使用" />
+  <meta name="keywords" content="deepseek, ollama, chatbox, ai, " />
   
   
-  <link rel="canonical" href="https://Wercurial.github.io/filedown/20240829-1/" />
+  <link rel="canonical" href="https://Wercurial.github.io/cloudai/20250207-1/" />
   
   
   
@@ -64,50 +64,51 @@
   
   
   
-  <meta property="og:url" content="https://Wercurial.github.io/filedown/20240829-1/">
+  <meta property="og:url" content="https://Wercurial.github.io/cloudai/20250207-1/">
   <meta property="og:site_name" content="云一二三">
-  <meta property="og:title" content="下载gs协议的文件">
-  <meta property="og:description" content="下载gs协议（gs://）的文件。">
+  <meta property="og:title" content="ollama及deepseek-r1模型安装使用">
+  <meta property="og:description" content="实现ollama调用deepseek-r1模型并在chatbox上使用">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
-    <meta property="article:section" content="filedown">
-    <meta property="article:published_time" content="2024-08-29T00:00:00+00:00">
-    <meta property="article:modified_time" content="2024-08-29T00:00:00+00:00">
-    <meta property="article:tag" content="File">
-    <meta property="article:tag" content="Download">
-    <meta property="article:tag" content="Gs">
+    <meta property="article:section" content="cloudai">
+    <meta property="article:published_time" content="2025-02-07T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-02-07T00:00:00+00:00">
+    <meta property="article:tag" content="Deepseek">
+    <meta property="article:tag" content="Ollama">
+    <meta property="article:tag" content="Chatbox">
+    <meta property="article:tag" content="Ai">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="下载gs协议的文件">
-  <meta name="twitter:description" content="下载gs协议（gs://）的文件。">
+  <meta name="twitter:title" content="ollama及deepseek-r1模型安装使用">
+  <meta name="twitter:description" content="实现ollama调用deepseek-r1模型并在chatbox上使用">
 
   
   <script type="application/ld+json">
   [{
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "文件下载",
-    "name": "下载gs协议的文件",
-    "headline": "下载gs协议的文件",
-    "description": "下载gs协议（gs:\/\/）的文件。",
-    "abstract": "\u003cp\u003e本文提供了下载gs协议的文件方案。\u003c\/p\u003e",
+    "articleSection": "云原生AI技术",
+    "name": "ollama及deepseek-r1模型安装使用",
+    "headline": "ollama及deepseek-r1模型安装使用",
+    "description": "实现ollama调用deepseek-r1模型并在chatbox上使用",
+    "abstract": "\u003ch5 id=\u0022typeit-8a36ed49ef3dc13012568e8605fd6865\u0022\u003e\u003c\/h5\u003e\n\n\u003cscript\u003e\n    document.addEventListener(\u0022DOMContentLoaded\u0022, function () {\n      new TypeIt(\u0022#typeit-8a36ed49ef3dc13012568e8605fd6865\u0022, {\n        strings: [\u0022\\\u0022无聊望见了犹豫, 达到理想不太易~\\\u0022\u0022,\u0022\u0022],\n        speed:  80 ,\n        lifeLike:  true ,\n        startDelay:  0 ,\n        breakLines:  true ,\n        waitUntilVisible:  true ,\n        loop:  true \n      }).go();\n    });\n\u003c\/script\u003e\n\n\n\u003ch1 class=\u0022relative group\u0022\u003e前言 \n    \u003cdiv id=\u0022%E5%89%8D%E8%A8%80\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\n    \n    \u003cspan\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100\u0022\u003e\n        \u003ca class=\u0022group-hover:text-primary-300 dark:group-hover:text-neutral-700\u0022\n            style=\u0022text-decoration-line: none !important;\u0022 href=\u0022#%E5%89%8D%E8%A8%80\u0022 aria-label=\u0022锚点\u0022\u003e#\u003c\/a\u003e\n    \u003c\/span\u003e        \n    \n\u003c\/h1\u003e\n\u003cblockquote\u003e\n\u003cp\u003e本文采取ollama\u002bdeepseek-r1\u002bchatbox的形式来使用deepseek模型\u003c\/p\u003e",
     "inLanguage": "zh-cn",
-    "url" : "https:\/\/Wercurial.github.io\/filedown\/20240829-1\/",
+    "url" : "https:\/\/Wercurial.github.io\/cloudai\/20250207-1\/",
     "author" : {
       "@type": "Person",
       "name": "古德"
     },
-    "copyrightYear": "2024",
-    "dateCreated": "2024-08-29T00:00:00\u002b00:00",
-    "datePublished": "2024-08-29T00:00:00\u002b00:00",
+    "copyrightYear": "2025",
+    "dateCreated": "2025-02-07T00:00:00\u002b00:00",
+    "datePublished": "2025-02-07T00:00:00\u002b00:00",
     
-    "dateModified": "2024-08-29T00:00:00\u002b00:00",
+    "dateModified": "2025-02-07T00:00:00\u002b00:00",
     
-    "keywords": ["file","download","gs"],
+    "keywords": ["deepseek","ollama","chatbox","ai"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "90"
+    "wordCount": "971"
   }]
   </script>
 
@@ -136,6 +137,9 @@
 
 
 
+
+
+<script defer src="/lib/typeit/typeit.umd.1b3200cb448f5cd1f548f2781452643d3511a43584b377b82c03a58055da4fdb7bc8f6c6c2ce846480c7677ff25bfd0d75f15823c09443ab18e0fd2cad792587.js" integrity="sha512-GzIAy0SPXNH1SPJ4FFJkPTURpDWEs3e4LAOlgFXaT9t7yPbGws6EZIDHZ3/yW/0NdfFYI8CUQ6sY4P0srXklhw=="></script>
 
 
 
@@ -1217,8 +1221,8 @@
   <li class="inline ">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/filedown/"
-      >文件下载</a
+      href="/cloudai/"
+      >云原生AI技术</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -1226,8 +1230,8 @@
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/filedown/20240829-1/"
-      >下载gs协议的文件</a
+      href="/cloudai/20250207-1/"
+      >ollama及deepseek-r1模型安装使用</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -1236,7 +1240,7 @@
 
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      下载gs协议的文件
+      ollama及deepseek-r1模型安装使用
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -1283,7 +1287,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-08-29 00:00:00 &#43;0000 UTC">2024-08-29</time><span class="px-2 text-primary-500">&middot;</span><span>90 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="2025-02-07 00:00:00 &#43;0000 UTC">2025-02-07</time><span class="px-2 text-primary-500">&middot;</span><span>971 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">2 分钟</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/js/zen-mode.min.63c8a202661f4a2063fdc2706685d668e8ea3da613da2224e9da527e5876e4f53dcac39ab60732626fb4151feae5d430d0cf44731e5d3c726522fcc1519c1547.js" integrity="sha512-Y8iiAmYfSiBj/cJwZoXWaOjqPaYT2iIk6dpSflh25PU9ysOatgcyYm&#43;0FR/q5dQw0M9Ecx5dPHJlIvzBUZwVRw=="></script>
@@ -1342,26 +1346,34 @@
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/file/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/deepseek/&#34;,'_self');">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    File
+    Deepseek
   </span>
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/download/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/ollama/&#34;,'_self');">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Download
+    Ollama
   </span>
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/gs/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/chatbox/&#34;,'_self');">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Gs
+    Chatbox
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/ai/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Ai
   </span>
 </span>
   </span>
@@ -1488,8 +1500,26 @@
     class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#1-原始文件地址">1. 原始文件地址</a></li>
-    <li><a href="#2-转换后的下载地址">2. 转换后的下载地址</a></li>
+    <li><a href="#前言">前言</a></li>
+    <li><a href="#1-ollama安装">1. ollama安装</a>
+      <ul>
+        <li><a href="#11-访问ollama官网">1.1 <strong>访问Ollama官网</strong></a></li>
+        <li><a href="#12-下载安装包">1.2 <strong>下载安装包</strong></a></li>
+        <li><a href="#13-验证安装">1.3 <strong>验证安装</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#2-下载并部署deepseek模型">2. 下载并部署DeepSeek模型</a>
+      <ul>
+        <li><a href="#21-选择模型">2.1 选择模型</a></li>
+        <li><a href="#22-查看模型是否成功加载运行">2.2 查看模型是否成功加载运行</a></li>
+      </ul>
+    </li>
+    <li><a href="#3-安装chatbox">3. 安装chatbox</a>
+      <ul>
+        <li><a href="#31-windows安装chatbox">3.1 windows安装chatbox</a></li>
+        <li><a href="#32-chatbox配置ollama下的deepseek-r1模型">3.2 chatbox配置ollama下的deepseek-r1模型</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -1503,8 +1533,26 @@
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#1-原始文件地址">1. 原始文件地址</a></li>
-    <li><a href="#2-转换后的下载地址">2. 转换后的下载地址</a></li>
+    <li><a href="#前言">前言</a></li>
+    <li><a href="#1-ollama安装">1. ollama安装</a>
+      <ul>
+        <li><a href="#11-访问ollama官网">1.1 <strong>访问Ollama官网</strong></a></li>
+        <li><a href="#12-下载安装包">1.2 <strong>下载安装包</strong></a></li>
+        <li><a href="#13-验证安装">1.3 <strong>验证安装</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#2-下载并部署deepseek模型">2. 下载并部署DeepSeek模型</a>
+      <ul>
+        <li><a href="#21-选择模型">2.1 选择模型</a></li>
+        <li><a href="#22-查看模型是否成功加载运行">2.2 查看模型是否成功加载运行</a></li>
+      </ul>
+    </li>
+    <li><a href="#3-安装chatbox">3. 安装chatbox</a>
+      <ul>
+        <li><a href="#31-windows安装chatbox">3.1 windows安装chatbox</a></li>
+        <li><a href="#32-chatbox配置ollama下的deepseek-r1模型">3.2 chatbox配置ollama下的deepseek-r1模型</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -1586,37 +1634,256 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          <p>本文提供了下载gs协议的文件方案。</p>
+          <h5 id="typeit-8a36ed49ef3dc13012568e8605fd6865"></h5>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new TypeIt("#typeit-8a36ed49ef3dc13012568e8605fd6865", {
+        strings: ["\"无聊望见了犹豫, 达到理想不太易~\"",""],
+        speed:  80 ,
+        lifeLike:  true ,
+        startDelay:  0 ,
+        breakLines:  true ,
+        waitUntilVisible:  true ,
+        loop:  true 
+      }).go();
+    });
+</script>
+
+
+<h1 class="relative group">前言 
+    <div id="%E5%89%8D%E8%A8%80" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%89%8D%E8%A8%80" aria-label="锚点">#</a>
+    </span>        
+    
+</h1>
 <blockquote>
-<p>通过将gs://后的文件或文件夹地址拼接到https://storage.googleapis.com即可</p>
+<p>本文采取ollama+deepseek-r1+chatbox的形式来使用deepseek模型</p>
 </blockquote>
 
 
-<h1 class="relative group">1. 原始文件地址 
-    <div id="1-%E5%8E%9F%E5%A7%8B%E6%96%87%E4%BB%B6%E5%9C%B0%E5%9D%80" class="anchor"></div>
+<h1 class="relative group">1. ollama安装 
+    <div id="1-ollama%E5%AE%89%E8%A3%85" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#1-%E5%8E%9F%E5%A7%8B%E6%96%87%E4%BB%B6%E5%9C%B0%E5%9D%80" aria-label="锚点">#</a>
+            style="text-decoration-line: none !important;" href="#1-ollama%E5%AE%89%E8%A3%85" aria-label="锚点">#</a>
     </span>        
     
 </h1>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">gs://kfserving-examples/models/sklearn/1.0/model/model.joblib
+<blockquote>
+<p>Ollama是一个开源工具，用于在本地轻松运行和部署大型语言模型。以下是安装Ollama的步骤：</p>
+</blockquote>
+
+
+<h2 class="relative group">1.1 <strong>访问Ollama官网</strong> 
+    <div id="11-%E8%AE%BF%E9%97%AEollama%E5%AE%98%E7%BD%91" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#11-%E8%AE%BF%E9%97%AEollama%E5%AE%98%E7%BD%91" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+<ul>
+<li><a href="https://ollama.com/download/linux" target="_blank">Ollama官网</a></li>
+</ul>
+
+
+<h2 class="relative group">1.2 <strong>下载安装包</strong> 
+    <div id="12-%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E5%8C%85" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#12-%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E5%8C%85" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+<ul>
+<li>根据你的操作系统选择对应的安装包。下载完成后，直接双击安装文件并按照提示完成安装。</li>
+</ul>
+
+
+<h2 class="relative group">1.3 <strong>验证安装</strong> 
+    <div id="13-%E9%AA%8C%E8%AF%81%E5%AE%89%E8%A3%85" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#13-%E9%AA%8C%E8%AF%81%E5%AE%89%E8%A3%85" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+<ul>
+<li>
+<p>本文为linux服务器安装</p>
+</li>
+<li>
+<p>在linux服务器安装完成后，设置开机启动</p>
+</li>
+<li>
+<p>文件名：/etc/systemd/system/ollama.service</p>
+<ul>
+<li>Description 是服务的简单描述。</li>
+<li>After 指定了在哪个服务启动后启动此服务。</li>
+<li>Type 定义了服务进程的启动类型，simple 表示启动主进程。</li>
+<li>User 指定运行服务的用户，本文用的是root ，你也可以用其他账户。</li>
+<li>WorkingDirectory 设置服务的工作目录，本文用的/root，你也可以切换成其他用户目录。</li>
+<li>ExecStart 指定启动服务的命令。
+Restart 指定服务崩溃时的重启策略。</li>
+<li>RestartSec 设置重启服务前等待的时间。</li>
+<li>WantedBy 指定了服务所在的 target，multi-user.target 表示多用户系统。</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="o">[</span>Unit<span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="nv">Description</span><span class="o">=</span>Ollama Service
+</span></span><span class="line"><span class="cl"><span class="nv">After</span><span class="o">=</span>network-online.target
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>Service<span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="nv">ExecStart</span><span class="o">=</span>/usr/bin/ollama serve
+</span></span><span class="line"><span class="cl"><span class="nv">User</span><span class="o">=</span>root
+</span></span><span class="line"><span class="cl"><span class="nv">Group</span><span class="o">=</span>root
+</span></span><span class="line"><span class="cl"><span class="nv">Restart</span><span class="o">=</span>always
+</span></span><span class="line"><span class="cl"><span class="nv">RestartSec</span><span class="o">=</span><span class="m">3</span>
+</span></span><span class="line"><span class="cl"><span class="nv">Environment</span><span class="o">=</span><span class="s2">&#34;OLLAMA_HOST=0.0.0.0&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">Environment</span><span class="o">=</span><span class="s2">&#34;OLLAMA_MODELS=/data/model/ollama&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>Install<span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="nv">WantedBy</span><span class="o">=</span>default.target
+</span></span></code></pre></div></li>
+<li>
+<p>接下来，执行以下命令来启动服务、使服务开机自启</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">systemctl daemon-reload
+</span></span><span class="line"><span class="cl">systemctl start ollama
+</span></span><span class="line"><span class="cl">systemctl <span class="nb">enable</span> ollama
+</span></span></code></pre></div></li>
+<li>
+<p>安装完成后，在终端输入以下命令，检查Ollama版本</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ollama --version
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># ollama服务，默认端口为11434， 对外提供服务x.x.x.x:11434</span>
 </span></span></code></pre></div>
 
-<h1 class="relative group">2. 转换后的下载地址 
-    <div id="2-%E8%BD%AC%E6%8D%A2%E5%90%8E%E7%9A%84%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80" class="anchor"></div>
+<h1 class="relative group">2. 下载并部署DeepSeek模型 
+    <div id="2-%E4%B8%8B%E8%BD%BD%E5%B9%B6%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#2-%E8%BD%AC%E6%8D%A2%E5%90%8E%E7%9A%84%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80" aria-label="锚点">#</a>
+            style="text-decoration-line: none !important;" href="#2-%E4%B8%8B%E8%BD%BD%E5%B9%B6%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B" aria-label="锚点">#</a>
     </span>        
     
 </h1>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">https://storage.googleapis.com/kfserving-examples/models/sklearn/1.0/model/model.joblib
+</li>
+</ul>
+
+
+<h2 class="relative group">2.1 选择模型 
+    <div id="21-%E9%80%89%E6%8B%A9%E6%A8%A1%E5%9E%8B" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#21-%E9%80%89%E6%8B%A9%E6%A8%A1%E5%9E%8B" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+<blockquote>
+<p>Ollama支持多种DeepSeek模型版本，用户可以根据硬件配置选择合适的模型。</p>
+</blockquote>
+<ul>
+<li>
+<p>本文服务器为英伟达16GB的T4显卡，因此选用<strong>deepseek-r1:14b</strong>模型(在线下载)</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ollama run deepseek-r1:14b
+</span></span></code></pre></div></li>
+<li>
+<p>因模型过大，官网下载速度较慢，因此可以下载第三方提供的模型文件，并通过ollama离线加载模式进行加载</p>
+<ul>
+<li>
+<p>下载完成将模型放到对应目录下，在模型文件同级目录下创建一个文件，命名为： <code>Modelfile</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ini" data-lang="ini"><span class="line"><span class="cl"><span class="na">FROM ./deepseek-r1-distill-qwen-14b-q4_k_m.gguf</span>
+</span></span></code></pre></div></li>
+<li>
+<p>若 <code>Modelfile</code>文件跟模型文件放在同一个目录下时，<code>FROM ./</code>后面执行的内容可以是模型的相对路径，不然为绝对路径</p>
+</li>
+<li>
+<p>进入模型所在目录，执行命令</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ollama create deepseek-r1-14b -f ./Modelfile
+</span></span></code></pre></div></li>
+</ul>
+</li>
+</ul>
+
+
+<h2 class="relative group">2.2 查看模型是否成功加载运行 
+    <div id="22-%E6%9F%A5%E7%9C%8B%E6%A8%A1%E5%9E%8B%E6%98%AF%E5%90%A6%E6%88%90%E5%8A%9F%E5%8A%A0%E8%BD%BD%E8%BF%90%E8%A1%8C" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#22-%E6%9F%A5%E7%9C%8B%E6%A8%A1%E5%9E%8B%E6%98%AF%E5%90%A6%E6%88%90%E5%8A%9F%E5%8A%A0%E8%BD%BD%E8%BF%90%E8%A1%8C" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="o">(</span>base<span class="o">)</span> root@work03:/data/model# ollama list
+</span></span><span class="line"><span class="cl">NAME                      ID              SIZE      MODIFIED          
+</span></span><span class="line"><span class="cl">deepseek-r1-14b:latest    5adeb0e184e9    9.0 GB    About an hour ago
 </span></span></code></pre></div>
+
+<h1 class="relative group">3. 安装chatbox 
+    <div id="3-%E5%AE%89%E8%A3%85chatbox" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#3-%E5%AE%89%E8%A3%85chatbox" aria-label="锚点">#</a>
+    </span>        
+    
+</h1>
+
+
+<h2 class="relative group">3.1 windows安装chatbox 
+    <div id="31-windows%E5%AE%89%E8%A3%85chatbox" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#31-windows%E5%AE%89%E8%A3%85chatbox" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+<ul>
+<li><a href="https://chatboxai.app/zh" target="_blank">chatbox官网</a></li>
+</ul>
+<p>下载并安装对应windows版本</p>
+
+
+<h2 class="relative group">3.2 chatbox配置ollama下的deepseek-r1模型 
+    <div id="32-chatbox%E9%85%8D%E7%BD%AEollama%E4%B8%8B%E7%9A%84deepseek-r1%E6%A8%A1%E5%9E%8B" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#32-chatbox%E9%85%8D%E7%BD%AEollama%E4%B8%8B%E7%9A%84deepseek-r1%E6%A8%A1%E5%9E%8B" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+<ul>
+<li>按如图所示配置</li>
+</ul>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="./1.png" alt="image.png" />
+      
+    </figure>
+</p>
+
           
           
           
@@ -1649,7 +1916,7 @@
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="mailto:?body=https://Wercurial.github.io/filedown/20240829-1/&amp;subject=%e4%b8%8b%e8%bd%bdgs%e5%8d%8f%e8%ae%ae%e7%9a%84%e6%96%87%e4%bb%b6"
+      href="mailto:?body=https://Wercurial.github.io/cloudai/20250207-1/&amp;subject=ollama%e5%8f%8adeepseek-r1%e6%a8%a1%e5%9e%8b%e5%ae%89%e8%a3%85%e4%bd%bf%e7%94%a8"
       title="通过电子邮件发送"
       aria-label="通过电子邮件发送"
       >
@@ -1675,7 +1942,7 @@
   
   
 
-  <a href="/k8s-solve/20240829-2/" class="min-w-full">
+  <a href="/cloudai/20240902-1/" class="min-w-full">
     
     <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
         
@@ -1687,7 +1954,7 @@
 
         
         <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/k8s-solve/20240829-2/">k8s资源删除报Terminating卡住</div>
+          href="/cloudai/20240902-1/">kserve安装使用</div>
         
 
         <div class="text-sm text-neutral-500 dark:text-neutral-400">
@@ -1730,7 +1997,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-08-29 00:00:00 &#43;0000 UTC">2024-08-29</time><span class="px-2 text-primary-500">&middot;</span><span>190 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span>
+  <time datetime="2024-09-02 00:00:00 &#43;0000 UTC">2024-09-02</time><span class="px-2 text-primary-500">&middot;</span><span>1825 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">4 分钟</span>
   
 
   
@@ -1776,26 +2043,26 @@
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/terminating/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/cloud/&#34;,'_self');">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Terminating
+    Cloud
   </span>
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/crd/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/machinelearning/&#34;,'_self');">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Crd
+    Machinelearning
   </span>
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/namespace/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/ai/&#34;,'_self');">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Namespace
+    Ai
   </span>
 </span>
   </span>
@@ -1820,7 +2087,7 @@
   
   
 
-  <a href="/calico/20240826-1/" class="min-w-full">
+  <a href="/tools/20250207-1/" class="min-w-full">
     
     <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
         
@@ -1832,7 +2099,7 @@
 
         
         <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/calico/20240826-1/">First</div>
+          href="/tools/20250207-1/">Windows下GitHub可网页访问不可本地拉取推送</div>
         
 
         <div class="text-sm text-neutral-500 dark:text-neutral-400">
@@ -1875,7 +2142,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-08-26 14:31:40 &#43;0800 &#43;0800">2024-08-26</time><span class="px-2 text-primary-500">&middot;</span><span>7 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span>
+  <time datetime="2025-02-07 00:00:00 &#43;0000 UTC">2025-02-07</time><span class="px-2 text-primary-500">&middot;</span><span>182 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span>
   
 
   
@@ -1913,522 +2180,34 @@
   
   
   
-  
-</div>
-
-
-
-        </div>
-
-        
-      </div>
-      <div class="px-6 pt-4 pb-2">
-
-      </div>
-    </div>
-  </a>
-
-  
-  
-
-  <a href="/ceph/20240826-1/" class="min-w-full">
-    
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
-        
-        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/img/2_hu1635824069494699803.jpg);"></div>
-        
-      
-
-      <div class="px-6 py-4">
-
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/ceph/20240826-1/">First</div>
-        
-
-        <div class="text-sm text-neutral-500 dark:text-neutral-400">
-          
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2024-08-26 14:31:40 &#43;0800 &#43;0800">2024-08-26</time><span class="px-2 text-primary-500">&middot;</span><span>7 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span>
-  
-
-  
-  
-</div>
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
-
-
-
-        </div>
-
-        
-      </div>
-      <div class="px-6 pt-4 pb-2">
-
-      </div>
-    </div>
-  </a>
-
-  
-  
-
-  <a href="/hugos/20240825-3/" class="min-w-full">
-    
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
-        
-        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/img/2_hu1635824069494699803.jpg);"></div>
-        
-      
-
-      <div class="px-6 py-4">
-
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/hugos/20240825-3/">hugo博客-blowfish主题添加时间轴</div>
-        
-
-        <div class="text-sm text-neutral-500 dark:text-neutral-400">
-          
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2024-08-25 00:00:00 &#43;0000 UTC">2024-08-25</time><span class="px-2 text-primary-500">&middot;</span><span>342 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span>
-  
-
-  
-  
-</div>
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/hugo/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/git/&#34;,'_self');">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Hugo
+    Git
   </span>
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/blowfish/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/github/&#34;,'_self');">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Blowfish
+    Github
   </span>
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/archives/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/ping/&#34;,'_self');">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Archives
+    Ping
   </span>
 </span>
   </span>
   
-  
-  
-  
-</div>
-
-
-
-        </div>
-
-        
-      </div>
-      <div class="px-6 pt-4 pb-2">
-
-      </div>
-    </div>
-  </a>
-
-  
-  
-
-  <a href="/hugos/20240825-2/" class="min-w-full">
-    
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
-        
-        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/img/2_hu1635824069494699803.jpg);"></div>
-        
-      
-
-      <div class="px-6 py-4">
-
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/hugos/20240825-2/">hugo博客-blowfish主题添加音乐组件</div>
-        
-
-        <div class="text-sm text-neutral-500 dark:text-neutral-400">
-          
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2024-08-25 00:00:00 &#43;0000 UTC">2024-08-25</time><span class="px-2 text-primary-500">&middot;</span><span>889 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">2 分钟</span>
-  
-
-  
-  
-</div>
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/hugo/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/pull/&#34;,'_self');">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Hugo
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/blowfish/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Blowfish
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/music/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Music
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-</div>
-
-
-
-        </div>
-
-        
-      </div>
-      <div class="px-6 pt-4 pb-2">
-
-      </div>
-    </div>
-  </a>
-
-  
-  
-
-  <a href="/hugos/20240823-1/" class="min-w-full">
-    
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
-        
-        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/img/2_hu1635824069494699803.jpg);"></div>
-        
-      
-
-      <div class="px-6 py-4">
-
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/hugos/20240823-1/">hugo博客-blowfish主题添加giscus作为评论系统</div>
-        
-
-        <div class="text-sm text-neutral-500 dark:text-neutral-400">
-          
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2024-08-23 00:00:00 &#43;0000 UTC">2024-08-23</time><span class="px-2 text-primary-500">&middot;</span><span>322 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span>
-  
-
-  
-  
-</div>
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/hugo/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Hugo
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/blowfish/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Blowfish
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/comments/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Comments
+    Pull
   </span>
 </span>
   </span>
@@ -2464,8 +2243,8 @@
           
         
       <script>
-        var oid = "views_filedown\/20240829-1\/index.md"
-        var oid_likes = "likes_filedown\/20240829-1\/index.md"
+        var oid = "views_cloudai\/20250207-1\/index.md"
+        var oid_likes = "likes_cloudai\/20250207-1\/index.md"
       </script>
       
       
@@ -2476,6 +2255,46 @@
   <footer class="pt-8 max-w-prose print:hidden">
 
     
+  
+    
+    
+    
+      
+      
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+        </span>
+        <span>
+          
+            <a class="flex text-right group ml-3" href="/cloudai/20240902-1/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >kserve安装使用</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-09-02 00:00:00 &#43;0000 UTC">2024-09-02</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+            </a>
+          
+        </span>
+      </div>
+    </div>
   
 
 

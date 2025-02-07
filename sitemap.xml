@@ -3,6 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://Wercurial.github.io/tags/ai/</loc>
+    <lastmod>2025-02-07T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://Wercurial.github.io/tags/chatbox/</loc>
+    <lastmod>2025-02-07T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://Wercurial.github.io/tags/deepseek/</loc>
+    <lastmod>2025-02-07T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://Wercurial.github.io/tags/git/</loc>
     <lastmod>2025-02-07T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
@@ -10,6 +28,18 @@
   </url>
   <url>
     <loc>https://Wercurial.github.io/tags/github/</loc>
+    <lastmod>2025-02-07T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://Wercurial.github.io/tags/ollama/</loc>
+    <lastmod>2025-02-07T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://Wercurial.github.io/cloudai/20250207-1/</loc>
     <lastmod>2025-02-07T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
@@ -46,6 +76,12 @@
   </url>
   <url>
     <loc>https://Wercurial.github.io/</loc>
+    <lastmod>2025-02-07T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://Wercurial.github.io/cloudai/</loc>
     <lastmod>2025-02-07T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
@@ -441,12 +477,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://Wercurial.github.io/tags/ai/</loc>
-    <lastmod>2024-09-02T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://Wercurial.github.io/tags/cloud/</loc>
     <lastmod>2024-09-02T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
@@ -484,12 +514,6 @@
   </url>
   <url>
     <loc>https://Wercurial.github.io/cloudnative/</loc>
-    <lastmod>2024-09-02T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://Wercurial.github.io/cloudai/</loc>
     <lastmod>2024-09-02T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
